@@ -32,7 +32,7 @@ function winner(){
         (z3.innerHTML === "O" && z6.innerHTML === "O" && z9.innerHTML === "O") ||
         (z1.innerHTML === "O" && z5.innerHTML === "O" && z9.innerHTML === "O") ||
         (z3.innerHTML === "O" && z5.innerHTML === "O" && z7.innerHTML === "O")){
-        document.getElementById("result").innerHTML = "Les morpions t'ont bottés les fesses !!!";
+        document.getElementById("result").innerHTML = "Les morpions t'ont botté les fesses !!!";
         }else if (z1.innerHTML.length == 1 && z2.innerHTML.length == 1 && z3.innerHTML.length == 1
             && z4.innerHTML.length == 1 && z5.innerHTML.length == 1 && z6.innerHTML.length == 1
             && z7.innerHTML.length == 1 && z8.innerHTML.length == 1 && z9.innerHTML.length == 1
