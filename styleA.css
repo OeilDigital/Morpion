@@ -6,9 +6,20 @@ html {
     --color-survol: orange;
 }
 
+#titre {
+    color: black;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+#titre>p{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 35px;
+}
 .game {
 
-    width: 1000px;
+    width: 600px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -85,12 +96,17 @@ button:disabled {
 
 #result {
     position: absolute;
-    left: 30%;
-    bottom: 100px;
+    left: 50%;
+    bottom: 5%;
     font-size: 20px;
-    font-family: sans-serif;
-    color: white;
-    background-color: black;
+    font-family:'Akaya Telivigala', cursive;
+    color: black;
+    font-size: 35px;
+    transform: translate(-50%, 0);
 }
+
+
+
+
 
 
