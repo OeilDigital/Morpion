@@ -13,12 +13,13 @@ html {
     left: 50%;
     transform: translate(-50%, 0);
 }
+
 #titre>p{
     font-family: 'Akaya Telivigala', cursive;
-    font-size: 35px;
+    font-size: 35px;    
 }
-.game {
 
+.game {
     width: 600px;
     position: absolute;
     top: 50%;
@@ -40,15 +41,16 @@ div button {
     font-size: 100px;
 }
 
-
 #zone1 {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
 }
+
 #zone2 {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
 }
+
 #zone3 {
     grid-column: 3 / 4;
     grid-row: 1 / 2;
