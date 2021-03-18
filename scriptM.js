@@ -37,13 +37,10 @@ function winner(){
             && z4.innerHTML.length == 1 && z5.innerHTML.length == 1 && z6.innerHTML.length == 1
             && z7.innerHTML.length == 1 && z8.innerHTML.length == 1 && z9.innerHTML.length == 1
             && document.getElementById("result").innerHTML.length === 0){
-                return document.getElementById("result").innerHTML = "Incroyable! C'est une égalité parfaite!";
+            document.getElementById("result").innerHTML = "Incroyable! C'est une égalité parfaite!";
             }
 }
 
-if(document.getElementById("result").innerHTML === "Incroyable! C'est une égalité parfaite!") {
-    document.getElementById("result").style.color = "red";
-}
 
 
 for(let i = 0; i<zone.length; i++) {
